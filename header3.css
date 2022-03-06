@@ -2,6 +2,9 @@
     height: 650px;
     margin-top: 400px;
     background-color: #f7f8f7;
+    max-width: 1440px;
+    background-size: auto;
+    
 }
 
 #header3 h2{
@@ -43,11 +46,10 @@ margin-left: 100px;
  float: left;
  text-align: left;
  padding: 30px;
- padding-left: 10px;
- margin-left: 250px;
+ padding-left: 250px;
  padding-right: 0px;
  
- width: 30%;
+ max-width: 30%;
 
  
  
@@ -76,8 +78,8 @@ margin-left: 100px;
     text-align: left;
     margin-top: 30px;
     padding: 0px;
-    margin-right: 180px;
-    width: 30%;
+    padding-right: 180px;
+    max-width: 30%;
     
 } 
 

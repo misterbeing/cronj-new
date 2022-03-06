@@ -4,8 +4,8 @@
     position: relative;
     background-repeat: no-repeat;
     height: 227px ;
-    width: 1335px;
-    background-size: 1335px 227px;
+    max-width: 1440px;
+    background-size: 1440px 227px;
     right: 2px;
     padding-top: 0px ;
     

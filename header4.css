@@ -1,5 +1,6 @@
 #header4{
-    height: 700px;
+    height:auto;
+ 
 }
 
 #header4 .image{
@@ -7,7 +8,7 @@
     object-fit: fill;
     position: relative;
     height: 250.38px;
-    width: 1108px ;
+    max-width: 1108px ;
     background-size: 1108px 250.38px;
     margin-left: auto;
     margin-right: auto;
@@ -22,7 +23,7 @@
     padding: 80px 90px ;
     margin-right :480px; ;
     padding-right: 60px;
-    width: 40%;
+    max-width: 40%;
     
 }
 
@@ -65,4 +66,145 @@
     margin-bottom: 3px; ;
 }
 
+#header4 .about {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
 
+#header4 .about h2{
+    font-size: 28px;
+}
+#header4 .about h2 span{
+    color: orangered;
+}
+
+#header4 .about img{
+    position: relative;
+    top: 12px;
+    left: -14px;
+    height: 50px;
+    
+}
+
+#header4 .about h3{
+    font-size: 20px ;
+    font-weight: 100;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+
+#header4 .card {
+    margin-top: 40px;
+    width: 1132px;
+    margin-left: 9%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: orangered;
+    border-width: 2.5px;
+    height: 222px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+#header4 .card .left{
+    float: left;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-right: 350px;
+    
+    
+}
+
+#header4 .card h2{
+    font-weight: 100;
+}
+#header4 .card h2 span {
+    color: #FFFFFF;
+    background-color: orangered;
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-weight: 100;
+}
+
+.card .left h3{
+    padding-top: 30px;
+    padding-left: 30px;
+    
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.card .right {
+    border-left: 2px orangered;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-style: solid;
+    float: right;
+    width: 10%;
+    height: 190px;
+    margin-top: -135px;
+    margin-right: 20px;
+    padding-right: 80px;
+    padding-left: 110px;
+}
+
+.card .right h2{
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color: orangered;
+    padding: 10px 13px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: -10px;
+    border-radius: 20px;
+ 
+}
+
+.card .right h3{
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: -50px;
+    line-height: 30px;
+}
+
+.card .right h3 span{
+    color: #707070;
+    font-size: 14px;
+}
+
+.name{
+    margin-top: 30px;
+    line-height: 60px;
+    text-align: left;
+    margin-left: 9%;
+    
+}
+.name .top{
+    font-size: 18px;
+    padding: 0px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.name .bottom{
+    font-size: 18px;
+    padding: 0px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.name li{
+    display: inline;
+    padding-right: 80px;
+    
+}
+.name .no{
+    background-color: orangered;
+    color: #FFFFFF;
+    border-radius: 30px;
+    padding: 4px 10px;
+}

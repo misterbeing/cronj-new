@@ -17,8 +17,9 @@
 header{
     background: url(./Body/Group\ 13079@2x.png);
     background-repeat: no-repeat;
-    background-size: 1333px 650px;
-    height: 650px;
+    background-size: 1440px 650px;
+    height: 40em;
+    
      
     
 }
@@ -49,7 +50,7 @@ header{
 .container
 {
     margin: auto;
-    max-width: 1100px;
+    max-width: 100em;
     overflow: auto;
     padding: 0px 20px ;
 }
